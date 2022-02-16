@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3Wg21y9/IUrvcYL+O/8o2satXoxrzKC1GrbJ+g1jJbE=",
+  "Source": "Hopital_npgsql",
+  "BasePath": "_content/Hopital_npgsql",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

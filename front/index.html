@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>API Hôpital</title>
+</head>
+<body>
+    <h1>API Hôpital</h1>
+
+    <h2>Rôles</h2>
+    
+    <p>/Roles/Get All</p>
+    <button id="getAllButton">Send</button>
+    <div id="getAllContent" class="content contentGet">
+    </div>
+
+
+    <p>/Roles/Get By {id}</p>
+    <!-- <form id="GetOneByIdForm" action="" method="GET"> -->
+    <form id="GetOneByIdForm">
+        <input type="text" name="GetOneByIdFormId" placeholder="Id">
+        <input type="submit" value="Send">
+    </form>
+    <div id="GetOneByIdContent" class="content contentGet">
+    </div>
+
+
+    <p>/Roles/Get By {name}</p>
+    <form id="GetOneByNameForm">
+        <input type="text" name="Name" placeholder="Name">
+        <input type="submit" value="Send">
+    </form>
+    <div id="GetOneByNameContent" class="content contentGet">
+    </div>
+
+
+    <p>/Roles/Post by {name}</p>
+    <form id="PostByNameForm">
+        <input type="text" name="Name" placeholder="Name">
+        <input type="submit" value="Send">
+    </form>
+    <div id="PostByNameContent" class="content contentPost">
+    </div>
+
+
+    <p>/Roles/Update by {id} {role}</p>
+    <form id="UpdateByIdRoleForm">
+        <input type="text" name="Id" placeholder="Id">
+        <input type="text" name="Role" placeholder="Role">
+        <input type="submit" value="Send">
+    </form>
+    <div id="UpdateByIdRoleContent" class="content contentPut">
+    </div>
+
+
+    <p>/Roles/Delete by {id}</p>
+    <form id="DeleteByIdForm">
+        <input type="text" name="Id" placeholder="Id">
+        <input type="submit" value="Send">
+    </form>
+    <div id="DeleteByIdContent" class="content contentDelete">
+    </div>
+
+
+    <h2>Dossiers</h2>
+
+    <p>/Dossiers/Update by {id}, one or more medical values</p>
+    <p>Dates au format 0000-00-00 00:00:00 ou 0000-00-00</p>
+    <form id="DossiersUpdateForm">
+        <input type="text" name="id" placeholder="Id">
+        <input type="text" name="dateEntree" placeholder="Date entrée">
+        <input type="text" name="dateSortie" placeholder="Date sortie">
+        <input type="text" name="motif" placeholder="Motif">
+        <input type="submit" value="Send">
+    </form>
+    <div id="DossiersUpdateContent" class="content contentPut">
+    </div>
+    
+    <h2>Plus rien après ça</h2>
+    <p>Bye bye !</p>
+
+    <script src="script.js"></script>
+</body>
+</html>

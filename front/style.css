@@ -1,0 +1,27 @@
+.content
+{
+    padding:0.2em;
+    margin:0.5em 0 0.5em 0;
+}
+.contentGet
+{
+    background-color:rgba(0, 128, 255, 0.2);
+}
+
+.contentPost
+{
+    background-color: rgba(0, 255, 21, 0.2);
+}
+
+.contentPut
+{
+    background-color: rgba(255, 140, 0, 0.2);
+}
+.contentDelete
+{
+    background-color: rgba(255, 0, 0, 0.2);
+}
+.content p, .content ol
+{
+    padding:0 1em;
+}
