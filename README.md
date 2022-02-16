@@ -17,5 +17,5 @@ Consulter le fichier `Docs/SolutionServeurFactor.pdf` pour une **présentation d
 
 ## Looping
 
-Les fichiers de **structure de base de données** sont réalisés avec le logiciel **Looping**. Le télécher ici : https://www.looping-mcd.fr
+Les fichiers de **structure de base de données** sont réalisés avec le logiciel **Looping**. Le télécharger ici : https://www.looping-mcd.fr
 
