@@ -2,9 +2,9 @@
 
 ## Projet
 
-- API Web avec **ASP.NET Core** de Microsoft .NET 6.
-- Solution Visual Studio : **ASP.NET Core Web API (C#)**
-- Architecture **MVC**.  
+- API Web avec **ASP.NET Core** de **.NET 6** (Microsoft).
+- Solution Visual Studio : **ASP.NET Core Web API (C#)**.
+- Architecture **MVC**.
 - Base de données **PostgreSQL**. 
 - Librairie C# **Npgsql**. 
 - *Front-end* personnel en **Javascript *vanilla*** (*fetch*, *XMLHttpRequest*...).
